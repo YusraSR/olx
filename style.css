@@ -1,0 +1,197 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+.header{
+    background-color: #f7f8f8;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 20px;
+    
+}
+.Bottom-Bar{
+    padding: 20px;
+    padding-left: 50px;
+    box-shadow: 0 4px 8px #000;
+}
+.all-cat{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+li:hover{
+    color: green;
+}
+a{
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+.Top-bar a i{
+    padding-right: 10px;
+    border-radius: 100%;
+    background-color:whitesmoke;
+}
+.Top-bar a:hover{
+    color: blue;
+}
+.Top-bar i:hover{
+    color:blue;
+}
+.Top-bar{
+   display: inline-block;
+   padding: 10px;
+}
+.H-Bottom{
+    padding-top: 5px;
+}
+.S-input{
+    padding: 13px;
+    width: 300px;
+   
+}
+.logo2{
+    padding-top: 10px;
+}
+.search{
+    width: 500px;
+}
+.S-input-search{
+    width: 600px;
+    padding: 13px;
+}
+.fa-magnifying-glass{
+    background-color: #002f34;
+    color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+}
+.Login{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+.Login:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+.Sell-Button{
+    background-color: #fff;
+    border-bottom: 4px solid #3a77ff;
+    border-left: 4px solid #ffce32;
+    border-right: 4px solid #23e5db;
+    border-top: 4px solid #3a77ff;
+    padding: 15px;
+     border-radius: 50px;
+}
+.cat{
+    padding: 40px;
+    margin-top: 10px;
+}
+.card{
+    max-width: 200px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px 0; 
+    padding: 20px;
+}
+.card img{
+    width: 80px;
+}
+.sliders{
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .box {
+    width:20%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 10px;
+   
+  }
+  
+  .card-icon p {
+    font-size: 2.5rem;
+    color: lightblue;
+  }
+  .card-icon p img{
+    width: 100px;
+  }
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    color: grey;
+    padding: 15px;
+  }
+  .add-cards{
+      max-width: 200px;
+      height: 300px;
+      border: 2px solid black;
+      padding: 20px;
+      border-radius: 6px;
+      cursor: pointer;
+     
+  }
+.add-cards img{
+    max-width: 200px;
+    padding: 10px;
+    
+   
+}
+ .add-cards p{
+    padding: 10px;
+    color: black;
+ } 
+ .add-cards3 img{
+    max-width: 200px
+    
+ }
+ .add-cards3{
+    max-width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+ .add-cards3 p{
+    padding: 10px;
+    color: black;
+ } 
+ 
+  
